@@ -1,0 +1,279 @@
+@font-face{
+	font-family: 'AlexBrush-Regular';
+	src : url('font/AlexBrush-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Alice-Regular';
+	src : url('font/Alice-Regular.ttf');
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+
+
+/*				menu				*/
+
+
+#lien{
+	display: flex;
+	justify-content: space-between;
+	background-color: #241e20;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 99;
+	color: white;
+	border-top: #70B6FC 4px solid;
+}
+
+header{
+	position: relative;
+	display: flex;
+    flex-direction: column-reverse;
+}
+
+#menu{
+	width: 40%;
+}
+
+.fas, .far{
+	color: #70B6FC;
+}
+
+ul{
+	display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+#nom{
+	display: flex;
+}
+
+#nom img{
+    width: 25%;
+}
+
+
+/*				titre 				*/
+
+#text-photo{
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+
+
+.auteur{
+	font-family: 'AlexBrush-Regular';
+	margin: 3%;
+	font-size: 2.1rem;
+}
+
+h1{
+	margin: 2%; 
+	}
+
+strong{
+	font-family: 'Alice-Regular';
+}
+
+#cadre{
+	position: relative;
+	border: #70B6FC 4px solid;
+	width: 50%;
+}
+ 
+#separateur{
+	width: 40%;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: 30%;
+}
+ 
+em{
+	color: #70B6FC;
+}
+
+
+
+/*				présentation				*/
+
+
+#presentation{
+	margin-top: 7%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#texte-presentation{
+	width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texte-presentation p{
+
+	width: 80%;
+}
+
+#dernier_chapitre{
+	font-weight: bold;
+    width: 40%;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: url(images/livre2.jpg);
+    background-size: cover;
+}
+
+h2{
+	border-bottom: 1px solid #70B6FC;
+}
+
+mark{
+	background-color: white;
+}
+
+footer{
+	margin-top: 10%;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+#livre{
+	position: absolute;
+    top: 28%;
+    width: 20%;
+    height: 19%;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: transparent;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 4px 4px grey;
+}
+
+button:active{
+	box-shadow: 1px 1px grey;
+	transform: translateY(3px);
+}
+
+
+/*				Chapitre Livre				*/
+
+
+#conteneur-chapitre{
+	height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 1px solid #70B6FC;
+}
+
+
+.chapitre{
+    border: 1px solid black;
+    height: 26%;
+    margin: 1%;
+    position: relative;
+}
+
+.lecture{
+	position: absolute;
+    bottom: 7%;
+    right: 1%;
+}
+
+
+/*				formulaire				*/
+
+form{
+	display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    border: #70B6FC 4px solid;
+    height: 31vh;
+    margin-top: 8%;
+    margin-left: 21%;
+}
+
+input{
+	width: 35%;
+    margin-bottom: 2%;
+    height: 12%;
+    border: 3px inset;
+    font-size: 1.1em;
+}
+
+form button{
+	width: 17%;
+    height: 14%;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: transparent;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 4px 4px grey;
+}
+
+
+#inscription button{
+	width: 17%;
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: transparent;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 4px 4px grey;
+}
+
+#inscription{
+	display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    border: #70B6FC 4px solid;
+    height: 42vh;
+    margin-top: 8%;
+    margin-left: 21%;
+}
+
+
+#inscription input{
+	width: 35%;
+    margin-bottom: 2%;
+    height: 9%;
+    border: 3px inset;
+    font-size: 1.1em;
+}
